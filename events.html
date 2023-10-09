@@ -1,0 +1,40 @@
+<!doctye html>
+    <html lang="en-uk">
+    <html>
+
+    <head>
+        <title>
+            events
+        </title>
+        <link rel="icon" href="icon1.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript2.js"></script>
+        <meta charset="UTS-8">
+        <meta name="Description" content="This about movies">
+        <meta name="Keywords" content="movies,cinema,theatre">
+        <meta name="Author" content="Cadbuary">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       
+    </head>
+	<body>
+	<button onclick="alert1()">click here singleclick</button><br><br>
+	<button ondblclick="alert1()">click here doubleclick</button><br>
+	<img src="user-1.png" onload="alert2()" onerror="alert3()"><br>
+	onkeypress<input type="txt" onkeypress="alert4()"><br>
+	onkeydown<input type="txt" onkeydown="alert4()"><br>
+	onkeyup<input type="txt" onkeyup="alert4()"><br>
+	
+	<script type="text/javascript">
+	function alert1(){
+	alert("you clicked a button!");
+	}
+     function alert2(){
+	 alert("image loaded sucessfully!");
+	 }
+    function alert3(){
+	 alert("image loaded unsucessfully!")}	
+  function alert4(){
+	 alert("you entered a charachater")}	
+var t=setTimeOut("alert('hello')",5000)	 
+	</script>
+	</body>
